@@ -17,7 +17,7 @@ jobs:
     env:
       REPO_URL: "sunhy-2012/sunhy-2012.github.io"  # 远程仓库的 URL
       BUILD_PATH: ".vitepress/dist"  # 构建输出路径
-      CUSTOM_DOMAIN: "sunhy.com"  # 自定义域名
+      CUSTOM_DOMAIN: "sunhy-2012/sunhy-2012.github.io"  # 自定义域名
 
     steps:
       - name: Set up Node.js
